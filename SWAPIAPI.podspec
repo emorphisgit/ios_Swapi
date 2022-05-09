@@ -26,7 +26,7 @@ A new SWAPIAPI.
   }
   s.author           = { 'Swapi_IOS' => 'nishant.mahajan@emorphis.com' }
   s.source           = { :git => 'https://github.com/emorphisgit/ios_Swapi.git', :tag => 'v1.0.0'}
-  s.source_files = 'SWAPIAPI/*.*'
+  s.source_files = 'SWAPIAPI/**/*.*'
 
   s.platform = :ios, '9.0'
 
