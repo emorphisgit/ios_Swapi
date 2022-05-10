@@ -75,7 +75,7 @@ public class SwapiApiCall {
         }
     }
     
-    public func getFilmWithID(peopleId: Int, completion: @escaping (Bool, FilmsResult?) -> Void) {
+    public func getFilmWithID(filmId: Int, completion: @escaping (Bool, FilmsResult?) -> Void) {
         APIManager.getFilmWithID_api(Id: peopleId) { result in
             switch result {
                 case .success(let response):
